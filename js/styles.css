@@ -1,0 +1,62 @@
+/* Lang_Translator 语言切换按钮样式 */
+
+/* 淡入动画 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/* 语言切换按钮 */
+#lang-switch-btn {
+    position: fixed;
+    top: 10px;
+    right: 80px;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    min-width: 75px;
+}
+
+#lang-switch-btn:hover {
+    background: rgba(0, 100, 200, 0.8);
+    transform: scale(1.05);
+    border-color: rgba(100, 150, 255, 0.5);
+}
+
+#lang-switch-btn:active {
+    transform: scale(0.95);
+}
+
+/* 提示框样式 */
+.lang-switch-toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    z-index: 10000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.3s ease;
+}
+
