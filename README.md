@@ -36,7 +36,7 @@ A simple and easy-to-use ComfyUI language switcher that allows you to switch bet
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/ olafchou/ComfyUI-ZH-EN-Switcher.git
+git clone https://github.com/olafchou/ComfyUI-ZH-EN-Switcher.git
 ```
 
 #### 方法二：手动下载
@@ -185,7 +185,7 @@ rm -rf ComfyUI/custom_nodes/ComfyUI-ZH-EN-Switcher
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/ olafchou/ComfyUI-ZH-EN-Switcher.git
+git clone https://github.com/olafchou/ComfyUI-ZH-EN-Switcher.git
 ```
 
 #### Method 2: Manual Download
