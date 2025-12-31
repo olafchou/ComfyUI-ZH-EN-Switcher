@@ -1,5 +1,5 @@
 """
-Lang_Translator - ComfyUI语言切换插件
+ComfyUI-ZH-EN-Switcher - ComfyUI中英文快速切换插件
 在ComfyUI界面添加一个悬浮的语言切换按钮
 """
 
@@ -13,4 +13,5 @@ NODE_CLASS_MAPPINGS = {}
 NODE_DISPLAY_NAME_MAPPINGS = {}
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS', 'WEB_DIRECTORY']
+
 
